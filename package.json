@@ -9,7 +9,7 @@
     "dev:start": "nodemon --exec babel-node index.js",
     "build:src": "babel src -d build/src && babel config -d build/config",
     "build:index": "babel index.js -d build",
-    "build:server": "npm run build:src && npm run build:index"
+    "build": "npm run build:src && npm run build:index"
   },
   "author": "Ilham Hanif Anjana",
   "license": "ISC",
